@@ -14,13 +14,9 @@ public class Iframeframe {
 		// TODO Auto-generated method stub
         
 		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
-		
 		WebDriver driver=new ChromeDriver();
-		
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
 		driver.get("https://chercher.tech/practice/frames-example-selenium-webdriver");
-		
 		//s=switch selenium focus to iframe
 		
 		driver.switchTo().frame("frame1");   //  ( ID (id=  "frame1" )///////////////////
